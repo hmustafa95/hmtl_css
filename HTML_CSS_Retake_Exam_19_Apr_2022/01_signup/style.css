@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    font-family: "Open Sans";
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 0px solid gray;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 4px 3px 3px 4px gray;
+}
+
+.leftside {
+    flex-basis: 50%;
+    height: 100%;
+    background-image: url("image/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+}
+
+.upperleft {
+    padding: 20px 0 0 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+    transform: translate(0%, 150%);
+}
+
+.center > h1 {
+    font-size: 36px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.center > p {
+    font-size: 24px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.bottom {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+}
+
+.rightside {
+    flex-basis: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px;
+    color: gray;
+    gap: 20px;
+}
+
+input {
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid gray;
+    line-height: 2;
+}
+
+input::placeholder {
+    padding: 12px;
+}
+
+.double {
+    margin-top: 100px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    line-height: 4;
+    width: 200px;
+    border-radius: 36px;
+    margin-right: 24px;
+}
+
+a {
+    color: gray;
+}
