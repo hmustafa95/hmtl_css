@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px 200px 15px 200px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+li > a {
+    width: 100%;
+    padding: 10px;
+}
+
+.biggest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-image: url("images/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftside {
+    width: 20%;
+    color: white;
+}
+
+.heading {
+    font-size: 32px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.leftside > h1 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.leftside > button {
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 16px;
+}
+
+.rightside {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.rightside > img {
+    height: 700px;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardhead {
+    text-align: center;
+    width: 35%;
+}
+
+.cardhead > h2 {
+    font-size: 32px;
+}
+
+.thecards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.eachcard {
+    flex-basis: 20%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 35px;
+}
+
+.eachcard > p {
+    color: gray;
+}
+
+.topcard {
+    height: 150px;
+    background-image: url("images/service-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kitty {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.leftkitty {
+    margin-top: 50px;
+    flex-basis: 35%;
+}
+
+.rightkitty {
+    flex-basis: 45%;
+}
+
+.rightkitty > .headkitty {
+    font-size: 36px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.rightkitty > h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.rightkitty > p {
+    width: 50%;
+    color: gray;
+}
+
+.rightkitty > button {
+    color: white;
+    background-color: red;
+    padding: 12px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.backkitty {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/cats-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.backkitty > h2 {
+    font-size: 40px;
+}
+
+.backkitty > p {
+    width: 30%;
+    text-align: center;
+}
+
+.buttdouble {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.buttdouble > button {
+    background-color: white;
+    color: red;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 16px;
+}
+
+.fourcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.eachfour > p {
+    color: gray;
+}
+
+.eachfour > p > a {
+    color: gray;
+}
+
+.eachfour:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 135px;
+}
+
+.eachfour:nth-child(4) > img {
+    height: 20px;
+}

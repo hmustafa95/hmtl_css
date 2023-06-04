@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .tm-nav-ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tm-welcome-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tm-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .tm-gallery-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    figure {
+        flex-basis: 100%;
+    }
+}
