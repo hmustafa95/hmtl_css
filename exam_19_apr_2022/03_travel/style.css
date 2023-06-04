@@ -1,0 +1,226 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: calc(100vw - 72px)100vw;
+    padding-right: 60px;
+}
+
+.siteoverall {
+    width: 100vw;
+    height: 100px;
+}
+
+.siteoverall > ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.siteoverall > ul > li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+}
+
+.siteoverall > ul > li > a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 58);
+    text-align: center;
+}
+
+.heer {
+    font-size: 48px;
+}
+
+.logo {
+    background: rgb(128,77,0);
+    background: linear-gradient(0deg, rgba(128,77,0,1) 0%, rgba(205,123,7,1) 100%);
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: calc(100vw - 72px)100vw;
+    padding-right: 100px;
+}
+
+.header > nav > ul {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.header > nav > ul > li > a {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 58);
+}
+
+.images {
+    background-image: url("image/slider.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(1, 1, 1, 1)
+    );
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    height: 300px;
+    width: 400px;
+    padding: 24px 12px 12px 12px;
+    color: white;
+}
+
+.content > button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: orange;
+    padding: 12px;
+    font-weight: bold;
+    width: 180px;
+    font-size: 18px;
+}
+
+.budacard {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 400px;
+    background-color: orange;
+    color: beige;
+}
+
+.budacard > h2 {
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+.budacard > ul > li {
+    margin-bottom: 20px;
+}
+
+.budacard > button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.littlecards {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+    color: rgb(0, 0, 58);
+}
+
+.littlecards > h1 {
+    font-size: 40px;
+}
+
+.littlecards > p {
+    font-size: 24px;
+}
+
+.littlecards > ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.littlecards > ul > li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 220px;
+    height: 100px;
+    text-align: center;
+}
+
+.littlecards > ul > li > img {
+    border-radius: 100%;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+    background-color: white;
+    padding: 2px;
+}
+
+.news {
+    background-color: orange;
+    height: 100px;
+    padding: 18px;
+    color: white;
+}
+
+.news > button {
+    position: absolute;
+    top: 175%;
+    right: 3%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+button:hover {
+    transition: 200ms;
+    background-color: white;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+    transition: 200ms;
+}
