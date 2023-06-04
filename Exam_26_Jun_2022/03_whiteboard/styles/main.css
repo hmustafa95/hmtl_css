@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=PT+Sans&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+  font-family: PT Sans, sans-serif;
+  margin-left: 24px;
+  margin-right: 24px;
+  /* height: 90vh; */
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(2, 900px);
+  grid-template-rows: repeat(6, 450px);
+  grid-template-areas: 
+  "top top"
+  "top top"
+  "upper-left upper-right"
+  "lower-left lower-right"
+  "bottom bottom"
+  "bottom bottom";
+}
+
+.top {
+  grid-area: top;
+  background-image: url(/Exam_26_Jun_2022/03_whiteboard/image/computer-main.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  /* color: white */
+}
+
+.top-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top_badge {
+  font-size: 20px;
+  width: 500px;
+  word-wrap: break-word;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 80px 240px 0px 240px;
+  color: black;
+}
+
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightgreen;
+  border-radius: 4px;
+  color: white;
+  border: 0px;
+  height: 55px;
+  width: 140px;
+  font-size: 20px;
+  transition: 200ms;
+}
+
+button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.action {
+  display: block;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px
+}
+
+.upper-left {
+  grid-area: upper-left;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.upper-right {
+  grid-area: upper-right;
+  margin: 25px 50px;
+}
+
+.upper-right > h2 {
+  margin-bottom: 20px;
+}
+
+.upper-right > p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.upper-right > ul {
+  line-height: 50px;
+}
+
+.upper-right > ul > li > i {
+  color: green;
+  width: 32px;
+}
+
+.lower-left {
+  grid-area: lower-left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "ptop ptop ptop"
+  "wire sketch site"
+  "to-do notes inter";
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.lower-left > h2 {
+  grid-area: ptop;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.wireframing {
+  grid-area: wire;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.sketching {
+  grid-area: sketch;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.sitemapping {
+  grid-area: site;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.to-dos {
+  grid-area: to-do;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.notes {
+  grid-area: notes;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.interviews {
+  grid-area: inter;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  font-weight: bold;
+}
+
+.lower-right {
+  grid-area: lower-right;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom {
+  grid-area: bottom;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  "head head head"
+  "one two three"
+  "four five six"
+  "foot foot foot";
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(158, 252, 252);
+  gap: 50px;
+  padding: 50px 50px 10px 50px;
+}
+
+.bottom > h2{
+  grid-area: head;
+  font-size: 50px;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.foot {
+  grid-area: foot;
+}
