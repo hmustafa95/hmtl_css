@@ -1,0 +1,58 @@
+#header {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+#unlist {
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.listitem {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+}
+
+.headline {
+    font-size: 28px;
+}
+
+.para1 {
+    font-style: italic;
+}
+
+.para2 {
+    font-size: 24px;
+}
+
+.section {
+    margin-left: 20px;
+}
+
+#footer {
+    background-color: #444;
+    
+}
+
+#footer_p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

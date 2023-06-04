@@ -1,0 +1,47 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+        form > div {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+
+    form {
+        padding-left: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+
+    form > div {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+
+    form {
+        padding-left: 18px;
+    }
+}
+
+@media (min-width: 1300px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1800px) {
+    body {
+        font-size: 21px;
+    }
+}

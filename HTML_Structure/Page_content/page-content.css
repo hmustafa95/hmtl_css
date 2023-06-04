@@ -1,0 +1,21 @@
+#body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+.headline {
+    font-size: 28px;
+}
+
+.para1 {
+    font-style: italic;
+}
+
+.para2 {
+    font-size: 24px;
+}
+
+.section {
+    margin-left: 20px;
+}

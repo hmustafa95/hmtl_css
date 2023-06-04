@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+}
+
+.container {
+    flex-basis: 40%;
+    margin-top: 50px;
+    padding: 16px;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 4px;
+}
+
+.container > p {
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 6px 60px 6px 10px;
+    border-radius: 4px;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form > div {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    width: 30%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.cont {
+    width: 70%;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 3px 2px 2px 6px;
+}
+
+input {
+    width: 70%;
+    border-style: none;
+}
