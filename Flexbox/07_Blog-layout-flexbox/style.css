@@ -1,0 +1,87 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 40px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 5px solid gray;
+    width: 100%;
+}
+
+header > p {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border: 2px solid black;
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.p2 {
+    margin-bottom: 28px;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+.quote-align {
+    width: 50%;
+    display: inline-block;
+}
+
+blockquote {
+    font-style: italic;
+    color: gray;
+    display: inline-block;
+    width: 35%;
+    border-left: 3px solid gray;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+main {
+    flex: 1 0 65%;
+}
+
+aside {
+    flex: 1 0 15%;
+}
