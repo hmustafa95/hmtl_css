@@ -1,1 +1,1 @@
-# html_css
+# HTML & CSS Exercises - Softuni
